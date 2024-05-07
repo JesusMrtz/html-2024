@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenido Embebido</title>
+  <style>
+    img {
+      width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contenido Embebido</h1>
+  <img src="./assets/imgs/macbook.jpg" alt="Macbook Laptop">
+
+  <section>
+    <h2>Picture</h2>
+    <picture>
+      <source srcset="./assets/imgs/macbook.jpg">
+      <img src="./assets/imgs/macbook.jpg" alt="Mackbook laptop">
+    </picture>
+  </section>
+
+  <section>
+    <h2>Figure</h2>
+    <figure>
+      <img src="./assets/imgs/macbook.jpg" alt="Mackbook laptop">
+      <figcaption>Ejemplo de insertar una imagen con figure</figcaption>
+    </figure>
+  </section>
+</body>
+</html>

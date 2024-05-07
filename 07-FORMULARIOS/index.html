@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <style>
+      div {
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formularios en HTML5</h1>
+    <form action="./recibido.html" title="Estructura básica de un formulario">
+      <fieldset>
+        <legend>Inicio de sesión</legend>
+        <div>
+          <label for="username">Usuario</label>
+          <input type="text" id="username" placeholder="Usuario" />
+        </div>
+        <div>
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" placeholder="Contraseña" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Música favorita</legend>
+        <div>
+          <label for="rock">Rock</label>
+          <input type="checkbox" name="favorite-music" id="rock" value="rock" />
+        </div>
+        <div>
+          <label for="rap">Rap</label>
+          <input type="checkbox" name="favorite-music" id="rap" value="rap" />
+        </div>
+        <div>
+          <label for="jazz">Jazz</label>
+          <input type="checkbox" name="favorite-music" id="jazz" value="jazz">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Genéro</legend>
+        <div>
+          <label for="h">Hombre</label>
+          <input type="radio" name="gender" id="h" value="hombre">
+        </div>
+        <div>
+          <label for="m">Mujer</label>
+          <input type="radio" name="gender" id="m" value="mujer">
+        </div>
+        <div>
+          <label for="na">Prefiero no contestar</label>
+          <input type="radio" name="gender" id="na" value="N/A">
+        </div>
+      </fieldset>
+      <div>
+        <button type="button">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>
